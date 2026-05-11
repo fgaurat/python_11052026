@@ -71,3 +71,10 @@ else:
 #     print(to_find," is not found")
 
 print("-"*50)    
+
+
+if False:
+    pass
+        
+
+print("This is false")
