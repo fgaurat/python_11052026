@@ -1,0 +1,126 @@
+Industry Usage
+ 
+AC Railway Lines (1-2ph)
+Agriculture
+Air Transportation
+Aluminium
+Aquaculture
+Automotive
+Automotive (Parts - Major Tier 1)
+Automotive (Parts - SME Tier 1)
+Automotive (Vehicles - OEM)
+Bakery & Confectionery
+Basic Chemicals
+Beverage
+Biomass
+Biotech
+Bridge,Tunnel and Highway
+Building
+Cement
+Cement and Glass
+Ceramics
+Chemical
+Coal
+Colocation Data Centers
+Commercial / Institutional & Industrial Buildings
+Commercial Buildings
+Commercial Refrigeration
+Consumer Services/Hospitality
+Cranes
+Critical Power
+CSS/Passenger Station/Tunnel
+Dairy
+Data Centers
+DC Railway Lines
+Destination Charging: Workplace
+District Energy (Heating and Cooling)
+Education Buildings
+Electric Distribution (<60 kV)
+Electric Sub Transmission (60-170 kV)
+Electric Transmission (>170 kV)
+Electric Utility - Power Generation
+Electrical Multiple Unit (EMU)
+Electronics and Semiconductors (3C)
+eMobility
+End Usage Unknown
+Enterprise Data Centers
+Food and Beverage
+Food Logistics
+Forestry
+Fruit & Vegetables
+Gas Utilities
+Glass
+Grinding
+Harbor Infrastructure Incl. Shore to Ship Activities
+Health & Hospital Buildings
+Healthcare/Medical
+Hydro
+Hydrogen Production - Green
+Hyperscale Data Centers
+Individual Buildings
+Industry
+Ingredients
+Institutional and Industrial Buildings
+Land Transport Infrastructure
+Life Science
+Liquid Energy Storage
+Logistics
+Manufacturing of Machinery
+Marine
+Meat, Poultry, Seafood
+Merchant Vessels
+Metals
+Mineral Processing
+Mining and Minerals
+Modular Data Centers
+Multi Apartment Buildings
+Natural Gas
+Nuclear Conventional
+Office Buildings
+Offshore Fixed Platform
+Offshore vessels
+Oil and Gas - Onshore Upstream
+Oil and Gas Industry
+Oil/Diesel
+Onshore Midstream Pipeline, Terminals & Storage
+Open Pit Mining
+Other Commercial/Institutional & Industrial Buildings
+Other Food & Beverage
+Other Industries
+Other machinery
+Other Marine
+Other Metals
+Other Residential Buildings
+Other Sources
+Other Utilities
+Paper
+Petrochemicals
+Printing
+Production Buildings
+Public Charging Network
+Pulp and Paper
+Railway
+Refining
+Residential Buildings
+Rubber and Plastics Products
+Solar
+Special Industries
+Specialty Chemicals
+Steel
+Sugar
+Surface Mining Vehicles
+Textile
+Trade Buildings
+Transport and Transportation Infrastructure
+Underground Mining including Hoisting
+Usage Unknown
+Utilities
+Waste and Recycling utility
+Waste to Energy
+Wastewater - Others
+Water - Others
+Water - Treatment
+Water and Wastewater
+Wind (off Shore)
+Wind (on Shore)
+Woodworking machinery
