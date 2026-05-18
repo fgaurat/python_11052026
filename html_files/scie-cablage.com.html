@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCIE — Câblage Électrique Courant Fort & Courant Faible</title>
+  <meta name="description" content="Spécialiste du courant fort et courant faible en Île-de-France depuis 1990. 60 collaborateurs, zéro sous-traitance." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SCIE" />
+  <meta property="og:title" content="SCIE — Expert Courant Fort & Courant Faible en Île-de-France" />
+  <meta property="og:description" content="Spécialiste du courant fort et courant faible depuis 1990. 60 collaborateurs, zéro sous-traitance, Île-de-France." />
+  <meta property="og:image" content="https://www.scie-cablage.com/og-image.jpg" />
+  <meta property="og:url" content="https://www.scie-cablage.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=5" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-logo">SCIE</div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar-fill" id="loaderFill"></div>
+      </div>
+      <div class="loader-num" id="loaderNum">0</div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header id="header">
+    <div class="header-inner">
+      <a class='logo' href='/'>SCIE</a>
+      <nav class="nav-links">
+        <div class="nav-dropdown">
+          <button class="nav-drop-trigger">
+            Nos métiers
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="nav-drop-menu">
+            <a class='drop-item' href='/courant-fort'>
+              <div class="drop-item-text">
+                <strong>Courant Fort</strong>
+              </div>
+            </a>
+            <a class='drop-item' href='/courant-faible'>
+              <div class="drop-item-text">
+                <strong>Courant Faible</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href='/methode-scie'>La méthode SCIE</a>
+        <a href='/notre-histoire'>Notre histoire</a>
+        <a href='/nos-realisations'>Nos réalisations</a>
+        <a href='/blog'>SCIE News</a>
+      </nav>
+      <a class='btn-proposal' href='/contactez-nous'>Contactez-nous</a>
+      <button class="burger" id="burger">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <div class="mobile-dropdown" id="mobileDropdown">
+        <button class="mobile-drop-trigger">Nos métiers <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <div class="mobile-drop-items">
+          <a href='/courant-fort'>Courant Fort</a>
+          <a href='/courant-faible'>Courant Faible</a>
+        </div>
+      </div>
+      <a href='/methode-scie'>La méthode SCIE</a>
+      <a href='/notre-histoire'>Notre histoire</a>
+      <a href='/nos-realisations'>Nos réalisations</a>
+      <a href='/blog'>SCIE News</a>
+      <a class='btn-proposal' href='/contactez-nous'>Contactez-nous</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-wrap">
+      <p class="hero-eyebrow">Expert de référence en France</p>
+      <h1 class="hero-headline">
+        VOTRE EXPERT
+        <span class="gradient-text hero-impact">COURANT FORT</span>
+        <span class="hero-amp">&amp;</span>
+        <span class="gradient-text hero-impact">COURANT FAIBLE</span>
+      </h1>
+      <div class="hero-ctas">
+        <a class='cta-pill' href='/contactez-nous'>Vous avez un projet ?</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE PRESTATIONS -->
+  <div class="marquee-strip">
+    <div class="marquee-track marquee-track--x3">
+      <span>Courant Fort</span><span class="sep">✦</span>
+      <span>Courant Faible</span><span class="sep">✦</span>
+      <span>Intégration Réseau</span><span class="sep">✦</span>
+      <span>Maintenance / SAV</span><span class="sep">✦</span>
+      <span>Bureau d'Études</span><span class="sep">✦</span>
+      <span>Levées de Réserves</span><span class="sep">✦</span>
+      <span>Courant Fort</span><span class="sep">✦</span>
+      <span>Courant Faible</span><span class="sep">✦</span>
+      <span>Intégration Réseau</span><span class="sep">✦</span>
+      <span>Maintenance / SAV</span><span class="sep">✦</span>
+      <span>Bureau d'Études</span><span class="sep">✦</span>
+      <span>Levées de Réserves</span><span class="sep">✦</span>
+      <span>Courant Fort</span><span class="sep">✦</span>
+      <span>Courant Faible</span><span class="sep">✦</span>
+      <span>Intégration Réseau</span><span class="sep">✦</span>
+      <span>Maintenance / SAV</span><span class="sep">✦</span>
+      <span>Bureau d'Études</span><span class="sep">✦</span>
+      <span>Levées de Réserves</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="services-head reveal">
+        <h2 class="services-headline">
+          35 ANS SUR LE TERRAIN.<br>
+          <span class="srv-headline-gradient">PAS EN RÉUNION.</span>
+        </h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-left">
+        <div class="about-right">
+          <p>Implantée à Alfortville (94), SCIE compte aujourd'hui une soixantaine de collaborateurs répartis sur toute l'Île-de-France. Spécialisés en courant fort et courant faible, nous réalisons l'intégralité de nos installations en interne — zéro sous-traitance.</p>
+          <div class="about-stats">
+            <div class="astat">
+              <strong>+1000</strong>
+              <span>clients satisfaits</span>
+            </div>
+            <div class="astat">
+              <strong>60+</strong>
+              <span>collaborateurs IDF</span>
+            </div>
+            <div class="astat">
+              <strong>35 ans</strong>
+              <span>d'expérience</span>
+            </div>
+            <div class="astat">
+              <strong>2 sites</strong>
+              <span>en Île-de-France</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EN BONNE COMPANY -->
+  <section class="partners">
+    <div class="container">
+      <h2 class="partners-title">EN BONNE <span class="gradient-text">COMPANY.</span></h2>
+    </div>
+
+    <!-- LIGNE 1 — défile vers la gauche -->
+    <div class="partners-marquee">
+      <div class="partners-track">
+        <div class="partner-item"><span>Morning</span><img src="img/partners/morning.png" alt="Morning" style="transform: scale(1.8);"></div>
+        <div class="partner-item"><span>Sephora</span><img src="img/partners/sephora.png" alt="Sephora"></div>
+        <div class="partner-item"><span>DPA</span><img src="img/partners/dpa.png" alt="DPA"></div>
+        <div class="partner-item"><span>Banque Populaire</span><img src="img/partners/banque-populaire.png" alt="Banque Populaire"></div>
+        <div class="partner-item"><span>CEVA</span><img src="img/partners/ceva.png" alt="CEVA"></div>
+        <div class="partner-item"><span>Quitoque</span><img src="img/partners/quitoque.png" alt="Quitoque"></div>
+        <div class="partner-item"><span>Sorbonne Paris Nord</span><img src="img/partners/sorbonne-paris-nord.png" alt="Sorbonne Paris Nord"></div>
+        <div class="partner-item"><span>Ministère de l'intérieur</span><img src="img/partners/ministere-interieur.png" alt="Ministère de l'intérieur"></div>
+        <div class="partner-item"><span>Cergy Paris Université</span><img src="img/partners/cergy-paris-universite.png" alt="Cergy Paris Université"></div>
+        <div class="partner-item"><span>INSEE</span><img src="img/partners/insee.png" alt="INSEE"></div>
+        <!-- duplicate -->
+        <div class="partner-item"><span>Morning</span><img src="img/partners/morning.png" alt="Morning" style="transform: scale(1.8);"></div>
+        <div class="partner-item"><span>Sephora</span><img src="img/partners/sephora.png" alt="Sephora"></div>
+        <div class="partner-item"><span>DPA</span><img src="img/partners/dpa.png" alt="DPA"></div>
+        <div class="partner-item"><span>Banque Populaire</span><img src="img/partners/banque-populaire.png" alt="Banque Populaire"></div>
+        <div class="partner-item"><span>CEVA</span><img src="img/partners/ceva.png" alt="CEVA"></div>
+        <div class="partner-item"><span>Quitoque</span><img src="img/partners/quitoque.png" alt="Quitoque"></div>
+        <div class="partner-item"><span>Sorbonne Paris Nord</span><img src="img/partners/sorbonne-paris-nord.png" alt="Sorbonne Paris Nord"></div>
+        <div class="partner-item"><span>Ministère de l'intérieur</span><img src="img/partners/ministere-interieur.png" alt="Ministère de l'intérieur"></div>
+        <div class="partner-item"><span>Cergy Paris Université</span><img src="img/partners/cergy-paris-universite.png" alt="Cergy Paris Université"></div>
+        <div class="partner-item"><span>INSEE</span><img src="img/partners/insee.png" alt="INSEE"></div>
+      </div>
+    </div>
+
+    <!-- LIGNE 2 — défile vers la droite -->
+    <div class="partners-marquee">
+      <div class="partners-track partners-track--reverse">
+        <div class="partner-item"><span>Ministère de la culture</span><img src="img/partners/ministere-culture.png" alt="Ministère de la culture"></div>
+        <div class="partner-item"><span>Equinix</span><img src="img/partners/equinix.png" alt="Equinix"></div>
+        <div class="partner-item"><span>Paris Musée</span><img src="img/partners/paris-musee.png" alt="Paris Musée"></div>
+        <div class="partner-item"><span>Amadeus</span><img src="img/partners/amadeus.png" alt="Amadeus"></div>
+        <div class="partner-item"><span>Bolloré Logistic</span><img src="img/partners/bollore-logistic.png" alt="Bolloré Logistic"></div>
+        <div class="partner-item"><span>Ville de Paris</span><img src="img/partners/ville-de-paris.png" alt="Ville de Paris"></div>
+        <div class="partner-item"><span>Douanes</span><img src="img/partners/douanes.png" alt="Douanes"></div>
+        <div class="partner-item"><span>Sanofi</span><img src="img/partners/sanofi.png" alt="Sanofi"></div>
+        <div class="partner-item"><span>EDF</span><img src="img/partners/edf.png" alt="EDF"></div>
+        <!-- duplicate -->
+        <div class="partner-item"><span>Ministère de la culture</span><img src="img/partners/ministere-culture.png" alt="Ministère de la culture"></div>
+        <div class="partner-item"><span>Equinix</span><img src="img/partners/equinix.png" alt="Equinix"></div>
+        <div class="partner-item"><span>Paris Musée</span><img src="img/partners/paris-musee.png" alt="Paris Musée"></div>
+        <div class="partner-item"><span>Amadeus</span><img src="img/partners/amadeus.png" alt="Amadeus"></div>
+        <div class="partner-item"><span>Bolloré Logistic</span><img src="img/partners/bollore-logistic.png" alt="Bolloré Logistic"></div>
+        <div class="partner-item"><span>Ville de Paris</span><img src="img/partners/ville-de-paris.png" alt="Ville de Paris"></div>
+        <div class="partner-item"><span>Douanes</span><img src="img/partners/douanes.png" alt="Douanes"></div>
+        <div class="partner-item"><span>Sanofi</span><img src="img/partners/sanofi.png" alt="Sanofi"></div>
+        <div class="partner-item"><span>EDF</span><img src="img/partners/edf.png" alt="EDF"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-head">
+        <h2 class="services-headline">
+          TOUT CE QU'IL VOUS FAUT,<br>
+          <span class="srv-headline-gradient">RIEN DE SUPERFLU.</span>
+        </h2>
+      </div>
+      <div class="services-grid">
+
+        <a href="#contact" class="srv-card" data-num="01">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3>Courant Fort</h3>
+          <p>Du Tarif Bleu au Tarif Vert, nous prenons en charge l'intégralité de vos installations électriques BT sans aucune sous-traitance.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+        <a href="#contact" class="srv-card" data-num="02">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <!-- cadre extérieur port -->
+              <rect x="2" y="3" width="20" height="18" rx="2"/>
+              <!-- ouverture port RJ45 (forme trapèze) -->
+              <path d="M7 9h10v8H7z"/>
+              <!-- encoche haut du port -->
+              <path d="M9 9V7h6v2"/>
+              <!-- contacts verticaux en bas du port -->
+              <line x1="9"  y1="13" x2="9"  y2="17"/>
+              <line x1="11" y1="13" x2="11" y2="17"/>
+              <line x1="13" y1="13" x2="13" y2="17"/>
+              <line x1="15" y1="13" x2="15" y2="17"/>
+            </svg>
+          </div>
+          <h3>Courant Faible</h3>
+          <p>Câblage informatique, SSI, contrôle d'accès, intrusion, GTB : un seul interlocuteur pour toutes vos installations courant faible, de A à Z.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+        <a href="#contact" class="srv-card" data-num="03">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/></svg>
+          </div>
+          <h3>Intégration réseau</h3>
+          <p>Conception réseau, paramétrage switchs et bornes Wi-Fi, mise en service vidéosurveillance et contrôle d'accès.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+        <a href="#contact" class="srv-card" data-num="04">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3>Maintenance / SAV</h3>
+          <p>Contrat à temps plein ou maintenance périodique : nous assurons la pérennité de vos installations avec réactivité et rigueur.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+        <a href="#contact" class="srv-card" data-num="05">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3M10 9h4M10 13h4M10 17h4"/></svg>
+          </div>
+          <h3>Bureau d'études</h3>
+          <p>Nous produisons en interne l'ensemble de vos documents techniques. Plans d'exécution, schémas unifilaires, notes de calcul réglementaires.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+        <a href="#contact" class="srv-card" data-num="06">
+          <div class="srv-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
+          <h3>Levées de réserves</h3>
+          <p>Nous vous accompagnons dans la levée de toutes vos réserves post-contrôle, pour une livraison conforme et sans mauvaise surprise.</p>
+          <span class="srv-arrow">Nous contacter →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTEURS D'ACTIVITÉ -->
+  <section class="sectors" id="secteurs">
+    <div class="container">
+      <div class="services-head reveal">
+        <h2 class="services-headline">
+          NOS SECTEURS<br>
+          <span class="srv-headline-gradient">D'ACTIVITÉ.</span>
+        </h2>
+      </div>
+      <div class="sectors-grid">
+
+        <!-- 1. Administrations publiques -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3 L2 8 L2 9 L22 9 L22 8 Z M4 9 L4 19 M8 9 L8 19 M12 9 L12 19 M16 9 L16 19 M20 9 L20 19 M2 19 L22 19 M2 21 L22 21"/>
+            </svg>
+          </div>
+          <h3>Administrations publiques</h3>
+          <p>Nous répondons depuis toujours aux appels d'offre publics et avons aujourd'hui un portefeuille de clients publics.</p>
+        </div>
+
+        <!-- 2. Collectivités territoriales -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+            </svg>
+          </div>
+          <h3>Collectivités territoriales</h3>
+          <p>Nous travaillons depuis toujours avec les communes, les conseils généraux ou régionaux. La ville de Paris est notre plus ancien client toujours actif à ce jour.</p>
+        </div>
+
+        <!-- 3. Secteur Éducatif -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+            </svg>
+          </div>
+          <h3>Secteur Éducatif</h3>
+          <p>Nous avons développé une expertise pour les travaux dans les écoles, les campus, les universités et maîtrisons les contraintes du secteur.</p>
+        </div>
+
+        <!-- 4. Secteur Santé -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 3v6m-3-3h6"/>
+            </svg>
+          </div>
+          <h3>Secteur Santé</h3>
+          <p>Nous travaillons depuis de nombreuses années pour les hôpitaux publics, les cliniques privées ainsi que les maisons de retraite et les EHPAD.</p>
+        </div>
+
+        <!-- 5. Data Center -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="8" rx="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="2" y="14" width="20" height="8" rx="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="6" cy="6" r="1" fill="currentColor" stroke="none"/>
+              <circle cx="6" cy="18" r="1" fill="currentColor" stroke="none"/>
+              <line x1="10" y1="6" x2="18" y2="6" stroke-linecap="round"/>
+              <line x1="10" y1="18" x2="18" y2="18" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Data Center</h3>
+          <p>Notre maîtrise des courants fort et courants faible nous a permis d'intégrer le monde très fermé des Data Center depuis 2010.</p>
+        </div>
+
+        <!-- 6. Bureaux & siège sociaux -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 21V7a2 2 0 012-2h14a2 2 0 012 2v14M3 21h18M9 21V11h6v10M9 7h2M13 7h2M9 11h2M13 11h2"/>
+            </svg>
+          </div>
+          <h3>Bureaux & siège sociaux</h3>
+          <p>Du plateau de bureau à l'ensemble immobilier nous travaillons aujourd'hui pour les grands agenceurs ou pour les clients finaux en direct.</p>
+        </div>
+
+        <!-- 7. Entrepôts logistiques -->
+        <div class="sector-card reveal">
+          <div class="sector-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M1 3h15v13H1zM16 8h4l3 3v5h-7V8z"/>
+              <circle cx="5.5" cy="18.5" r="2.5" stroke-linecap="round"/>
+              <circle cx="18.5" cy="18.5" r="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Entrepôts logistiques</h3>
+          <p>La logistique est un secteur pour lequel nous travaillons depuis plus de 20 ans et pour lequel nous avons développé un réel savoir faire.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REALISATIONS -->
+  <section class="realisations" id="realisations">
+    <div class="container">
+      <div class="services-head reveal">
+        <h2 class="services-headline">
+          +5000 CHANTIERS.<br>
+          <span class="srv-headline-gradient">CHACUN COMPTE.</span>
+        </h2>
+      </div>
+    </div>
+    <!-- Accordion gallery — fond étoilé -->
+    <div class="gallery-accordion-home">
+      <canvas class="constellation-canvas"></canvas>
+      <div class="gallery-accordion">
+
+        <div class="gallery-slot" data-project="louvre">
+          <img src="img/35-louvre.jpg" alt="35 Louvre" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">Bureaux — Paris 1er</span>
+            <div class="gallery-slot-name">35 Louvre</div>
+            <div class="gallery-slot-stat">4 000 m² · 8 niveaux</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+        <div class="gallery-slot" data-project="arboretum">
+          <img src="img/arboretum.jpg" alt="Arboretum" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">SSI — Île-de-France</span>
+            <div class="gallery-slot-name">Arboretum</div>
+            <div class="gallery-slot-stat">+700 équipements SSI</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+        <div class="gallery-slot" data-project="ceva">
+          <img src="img/ceva-lemans.jpg" alt="CEVA Le Mans" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">Industrie — Le Mans</span>
+            <div class="gallery-slot-name">CEVA Le Mans</div>
+            <div class="gallery-slot-stat">CFO + CFA · 100% interne</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+        <div class="gallery-slot" data-project="mines">
+          <img src="img/institut-mines.jpg" alt="Institut Mines-Télécom" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">Enseignement — Île-de-France</span>
+            <div class="gallery-slot-name">Institut Mines-Télécom</div>
+            <div class="gallery-slot-stat">17 bâtiments · 4 037 m²</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+        <div class="gallery-slot" data-project="justice">
+          <img src="img/ministere-justice.jpg" alt="Ministère de la Justice" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">Data Center — Paris</span>
+            <div class="gallery-slot-name">Ministère de la Justice</div>
+            <div class="gallery-slot-stat">2 × 400 m² · 6 mois</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+        <div class="gallery-slot" data-project="morning">
+          <img src="img/morning-pixel.jpg" alt="Morning Pixel" />
+          <div class="gallery-slot-overlay">
+            <span class="gallery-slot-tag">Bureaux — Île-de-France</span>
+            <div class="gallery-slot-name">Morning Pixel</div>
+            <div class="gallery-slot-stat">11 000 m² · 10 mois</div>
+            <div class="gallery-slot-btn">Voir le projet →</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT MODAL (Réalisations) -->
+  <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-inner">
+      <div class="modal-photo">
+        <button class="modal-close" id="modalClose" aria-label="Fermer la fiche projet">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <img id="modalPhoto" src="" alt="" />
+      </div>
+      <div class="modal-content">
+        <span class="modal-tag" id="modalTag"></span>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-stats" id="modalStats"></div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-footer-cta">
+          <a href='/contactez-nous'>Discuter d'un projet similaire →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <span class="tag">Travailler ensemble</span>
+          <h2>
+            <span class="hw-bold">Parlons</span><br>
+            <span class="hw-light">de votre projet.</span>
+          </h2>
+          <p>Devis gratuit sous 48h. Réponse garantie.</p>
+          <div class="contact-details">
+            <div class="cd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <span>01 48 92 37 56</span>
+            </div>
+            <div class="cd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <span>info@scie.fr</span>
+            </div>
+            <div class="cd-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <span>Alfortville (94) · Lisses (91)</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="devisForm" action="https://formspree.io/f/xeevaaoo" method="POST">
+            <div class="form-group">
+              <label>Étape de votre projet *</label>
+              <select name="etape" required>
+                <option value="">— Sélectionnez —</option>
+                <option>Étude / Conception — m'aider à définir mon besoin</option>
+                <option>Appel d'offres en cours — Faire chiffrer mon besoin</option>
+                <option>Chantier à démarrer</option>
+                <option>Maintenance / SAV</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nom *</label>
+                <input type="text" name="nom" placeholder="Votre nom" required />
+              </div>
+              <div class="form-group">
+                <label>Prénom *</label>
+                <input type="text" name="prenom" placeholder="Votre prénom" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Société *</label>
+                <input type="text" name="societe" placeholder="Votre société" required />
+              </div>
+              <div class="form-group">
+                <label>Téléphone</label>
+                <input type="tel" name="telephone" placeholder="06 XX XX XX XX" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email *</label>
+                <input type="email" name="email" placeholder="votre@email.fr" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Services souhaités</label>
+              <div class="checkboxes">
+                <label class="chk"><input type="checkbox" name="service" value="Travaux courant fort" /><span>Travaux courant fort</span></label>
+                <label class="chk"><input type="checkbox" name="service" value="Travaux courant faible" /><span>Travaux courant faible</span></label>
+                <label class="chk"><input type="checkbox" name="service" value="Intégration réseau" /><span>Intégration réseau</span></label>
+                <label class="chk"><input type="checkbox" name="service" value="Bureau d'études" /><span>Bureau d'études</span></label>
+                <label class="chk"><input type="checkbox" name="service" value="Maintenance" /><span>Maintenance</span></label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Description du projet</label>
+              <textarea name="description" rows="4" placeholder="Décrivez votre besoin..."></textarea>
+            </div>
+            <button type="submit" class="cta-primary cta-full" style="padding: 22px 30px; font-size: 16px; font-weight: 700; border-radius: 12px; margin-top: 8px;">Envoyer ma demande</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="ft-logo">SCIE</div>
+          <p>Depuis 1990.</p>
+          <div class="ft-social">
+            <a href="https://www.linkedin.com/company/scie/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Pages</h5>
+          <ul>
+            <li><a href='/courant-fort'>Courant Fort</a></li>
+            <li><a href='/courant-faible'>Courant Faible</a></li>
+            <li><a href='/notre-histoire'>Notre histoire</a></li>
+            <li><a href='/methode-scie'>La méthode SCIE</a></li>
+            <li><a href='/nos-realisations'>Nos réalisations</a></li>
+            <li><a href='/blog'>SCIE News</a></li>
+            <li><a href='/contactez-nous'>Contactez-nous</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>01 48 92 37 56</li>
+            <li>info@scie.fr</li>
+            <li>Alfortville (94)</li>
+            <li>Lisses (91)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 SCIE — Tous droits réservés</p>
+        <div class="ft-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Confidentialité</a>
+          <a href="#">CGV</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+    (function() {
+      var projectData = [
+        { id: "louvre", image: "img/35-louvre.jpg", tag: "Bureaux — Paris 1er", name: "35 Louvre",
+          stats: [{ value: "4 000 m²", label: "Surface câblée" }, { value: "600 KVA", label: "Transformateur" }, { value: "450", label: "Postes de travail" }],
+          desc: "Réhabilitation complète d’un immeuble de bureaux emblématique au cœur du 1er arrondissement de Paris. SCIE a réalisé l’intégralité des travaux CFO et CFA sur 8 niveaux et 2 sous-sols : installation d’un transformateur 600 KVA, mise en place du TGBT, câblage informatique complet, SSI et remise aux normes. Certification BREEAM, conformité décret tertiaire. 450 postes de travail entièrement câblés." },
+        { id: "arboretum", image: "img/arboretum.jpg", tag: "SSI — Île-de-France", name: "Arboretum",
+          stats: [{ value: "296", label: "Détecteurs incendie" }, { value: "131", label: "Sirènes d’alarme" }, { value: "18 mois", label: "Durée chantier" }],
+          desc: "Déploiement d’un Système de Sécurité Incendie de Type 1 sur bus SDI pour un vaste complexe immobilier. 296 détecteurs incendie, 124 déclencheurs manuels, 8 organes de supervision, CMSI avec 36 modules déportés et 7 AES. Diffusion alarme : 131 sirènes, 283 flashs, 39 flash sonores. Compartimentage 232 ventouses PCF. Désenfumage 17 DAC et 14 CCF." },
+        { id: "ceva", image: "img/ceva-lemans.jpg", tag: "Industrie — Le Mans", name: "CEVA Le Mans",
+          stats: [{ value: "2 baies", label: "Réseau déployées" }, { value: "CFO + CFA", label: "Lots réalisés" }, { value: "0", label: "Sous-traitants" }],
+          desc: "Mission complète courant fort et courant faible pour le site industriel CEVA à Le Mans. Installation du TGBT et TD informatique, déploiement de 2 baies réseau complètes, câblage éclairage et sécurité, points d’accès réseau et électriques, contrôle d’accès, SSI et éclairage extérieur. Zéro sous-traitance." },
+        { id: "mines", image: "img/institut-mines.jpg", tag: "Enseignement — Île-de-France", name: "Institut Mines-Télécom",
+          stats: [{ value: "4 037 m²", label: "Surface réhabilitée" }, { value: "450", label: "Postes de travail" }, { value: "17", label: "Bâtiments" }],
+          desc: "Réhabilitation complète du campus de l’Institut Mines-Télécom : 17 bâtiments sur 7,5 hectares. Refonte intégrale CFO et CFA, remplacement SSI et BAES, rénovations post-désamiantage. Salles de laboratoire, amphithéâtres, salles de TP. 450 postes câblés avec maintien de la continuité de service." },
+        { id: "justice", image: "img/ministere-justice.jpg", tag: "Data Center — Paris", name: "Ministère de la Justice",
+          stats: [{ value: "2 × 400 m²", label: "Salles data center" }, { value: "4 niveaux", label: "Chemins de câbles" }, { value: "6 mois", label: "Durée chantier" }],
+          desc: "Câblage et infrastructure réseau de deux salles data center de 400 m² chacune. Chemins de câbles sur 4 niveaux, câblage CFA complet des salles serveurs, arrivées depuis MMR. Repérage et étiquetage réglementaire, tests cuivre et optiques certifiés, rackage équipements, DOE complet livré." },
+        { id: "morning", image: "img/morning-pixel.jpg", tag: "Bureaux — Île-de-France", name: "Morning Pixel",
+          stats: [{ value: "11 000 m²", label: "Surface réhabilitée" }, { value: "10 mois", label: "Durée chantier" }, { value: "CFO+CFA+SSI+GTB", label: "Lots réalisés" }],
+          desc: "Réhabilitation de 2 bâtiments de plus de 10 niveaux pour 11 000 m² au total. SCIE a pris en charge la totalité des lots CFO, CFA, SSI et GTB en maintien partiel d’exploitation. Remplacement des tableaux électriques, refonte câblage informatique, déploiement GTB, mise en place SSI neuf. 10 mois de chantier." }
+      ];
+      var modal  = document.getElementById("projectModal");
+      var mPhoto = document.getElementById("modalPhoto");
+      var mTag   = document.getElementById("modalTag");
+      var mTitle = document.getElementById("modalTitle");
+      var mStats = document.getElementById("modalStats");
+      var mDesc  = document.getElementById("modalDesc");
+      var mClose = document.getElementById("modalClose");
+      if (!modal) return;
+      function openModal(id) {
+        var p = projectData.find(function(x) { return x.id === id; });
+        if (!p) return;
+        mPhoto.src = p.image; mPhoto.alt = p.name;
+        mTag.textContent = p.tag;
+        mTitle.textContent = p.name;
+        mStats.innerHTML = p.stats.map(function(s) {
+          return "<div class=\"modal-stat\"><strong>" + s.value + "</strong><span>" + s.label + "</span></div>";
+        }).join("");
+        mDesc.textContent = p.desc;
+        modal.classList.add("open");
+        document.body.classList.add("no-scroll");
+      }
+      function closeModal() { modal.classList.remove("open"); document.body.classList.remove("no-scroll"); }
+      mClose.addEventListener("click", closeModal);
+      modal.addEventListener("click", function(e) { if (e.target === modal) closeModal(); });
+      document.addEventListener("keydown", function(e) { if (e.key === "Escape") closeModal(); });
+      document.querySelectorAll("#realisations [data-project]").forEach(function(el) {
+        el.addEventListener("click", function() { openModal(el.dataset.project); });
+      });
+    })();
+  </script>
+
+</body>
+</html>
