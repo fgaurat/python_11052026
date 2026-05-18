@@ -1,20 +1,20 @@
-name;domain
-REXEL PLATEFORME ST MARTIN DE CRAU;rexel.fr
-SOCIETE DE CABLAGE ELECTRIQUE;scie-cablage.com
-TECHNIDEAL;technideal.com
-TECUMSEH EUROPE Sales & Logistics;tecumseh.com
-CEL FRANCE;cel-france.com
-MANUFACTURE APPAREILLAGE;Non trouvé
-SEIFEL SA;Pas de site web propre (filiale Groupe Sicame)
-COMECA FRANCE SAS NUCLEAIRE;comeca-group.com
-SNCF VOYAGEURS;sncf-voyageurs.com
-AGP;groupe-agp.com
-SOCOMEC;socomec.fr
-ELECTRO BREST;Pas de site web propre (réseau ETN France)
-RS COMPONENTS SAS;rs-online.com
-BRETAGNE CABLAGE INDUSTRIEL GRAVURE;bcig.fr
-SOREEL;kohler-soreel.com
-EES-CLEMESSY BU04035;Non trouvé
-CEV CONSTRUCTION ELECTRIQUE;Non trouvé
-CHLORIDE SAS;Non trouvé
-REXEL FRANCE NORD EST DOURGES;rexel.fr
+code_client;name;domain
+123;REXEL PLATEFORME ST MARTIN DE CRAU;rexel.fr
+124;SOCIETE DE CABLAGE ELECTRIQUE;scie-cablage.com
+125;TECHNIDEAL;technideal.com
+126;TECUMSEH EUROPE Sales & Logistics;tecumseh.com
+127;CEL FRANCE;cel-france.com
+128;MANUFACTURE APPAREILLAGE;Non trouvé
+129;SEIFEL SA;Pas de site web propre (filiale Groupe Sicame)
+130;COMECA FRANCE SAS NUCLEAIRE;comeca-group.com
+131;SNCF VOYAGEURS;sncf-voyageurs.com
+132;AGP;groupe-agp.com
+133;SOCOMEC;socomec.fr
+134;ELECTRO BREST;Pas de site web propre (réseau ETN France)
+135;RS COMPONENTS SAS;rs-online.com
+136;BRETAGNE CABLAGE INDUSTRIEL GRAVURE;bcig.fr
+137;SOREEL;kohler-soreel.com
+138;EES-CLEMESSY BU04035;Non trouvé
+139;CEV CONSTRUCTION ELECTRIQUE;Non trouvé
+140;CHLORIDE SAS;Non trouvé
+141;REXEL FRANCE NORD EST DOURGES;rexel.fr

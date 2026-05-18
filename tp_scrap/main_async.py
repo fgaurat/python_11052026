@@ -12,21 +12,12 @@ load_dotenv()
 CONCURRENCY = int(os.getenv('CONCURRENCY_LIMIT', 3))
 
 
-async def get_content(client_http, domain, markdown_dir, html_dir, semaphore):
+async def get_content(client_http, domain, html_dir, semaphore,code_client ):
 
     async with semaphore:
         r = await client_http.get(f'https://{domain}/')
-        print(domain, r.status_code)
 
-        doc = Document(r.text)
-        clean_html = doc.summary()
-        markdown = md(clean_html)
-
-
-        with open(f"{markdown_dir}/{domain}.md", "w", encoding="utf-8") as file:
-            file.write(markdown)
-
-        with open(f"{html_dir}/{domain}.html", "w", encoding="utf-8") as file:
+        with open(f"{html_dir}/{code_client}_{domain}.html", "w", encoding="utf-8") as file:
             file.write(r.text)
 
 
@@ -40,12 +31,10 @@ async def main():
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
         'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
     }
-    markdown_dir = "markdown_files"
     html_dir = "html_files"
     start_time = time.time()
 
     # Créer un dossier pour stocker les fichiers markdown, s'il n'existe pas déjà
-    os.makedirs(markdown_dir, exist_ok=True)
     os.makedirs(html_dir, exist_ok=True)
 
     sites_web_societes = os.getenv(
@@ -59,8 +48,9 @@ async def main():
             for row in reader:
                 if "." in row['domain']:
                     domain = row['domain']
+                    code_client = row['code_client']
                     get_content_tasks.append(get_content(
-                        network_client, domain, markdown_dir, html_dir, semaphore))
+                        network_client, domain, html_dir, semaphore, code_client))
                     # await get_content(network_client, domain, markdown_dir)
 
             # Exécuter toutes les tâches de récupération de contenu en parallèle
